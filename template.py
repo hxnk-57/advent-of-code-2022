@@ -1,4 +1,4 @@
-file_path = "input/03.txt"
+file_path = "input/00.txt"
 
 with open(file_path, 'r') as file:    
     lines = [line for line in file]
