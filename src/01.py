@@ -1,4 +1,4 @@
-file_path = r"2022\input\01.txt"
+file_path = "input/01.txt"
 
 lines = []
 elves = []

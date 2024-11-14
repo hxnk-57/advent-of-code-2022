@@ -1,11 +1,7 @@
-file_path = r"2021\input\00.txt"
-
-directions = [str]
-horizontal_position: int = 0
-vertical_position: int = 0
+file_path = "input/03.txt"
 
 with open(file_path, 'r') as file:    
-    directions = [line for line in file]
+    lines = [line for line in file]
 
 def part_one() -> int:
     return 
@@ -13,5 +9,5 @@ def part_one() -> int:
 def part_two() -> int:
     return 
 
-print(part_one())
-print(part_two())
+print(f"Part One: {part_one()}")
+print(f"Part Two: {part_two()}")
