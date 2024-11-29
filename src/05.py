@@ -60,8 +60,8 @@ def part_two() -> int:
     for stack in stacks.values():
         if stack:
             solution += stack[-1]
-    return solution
 
+    return solution
 
 #print(f"Part One: {part_one()}")
 print(f"Part Two: {part_two()}")
