@@ -3,12 +3,6 @@ file_path = "input/0.txt"
 with open(file_path, 'r') as file:    
     lines = [line.strip() for line in file]
 
-def create_tree():
-    return
-
-def traverse_tree(tree):
-    return
-
 def part_one() -> int:
     print(lines)
     for line in lines:
